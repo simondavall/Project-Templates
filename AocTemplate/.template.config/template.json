@@ -1,0 +1,14 @@
+{
+    "author": "Simon Da Vall",
+    "name": "Aoc Console Application",
+    "description": "A console project setup for Advent Of Code solutions.",
+    "classifications": ["Common","Console"],
+    "identity": "Aoc.ConsoleApp.1.0",
+    "shortName": "aoc-console",
+    "tags": {
+        "language": "C#",
+        "type": "project"
+    },
+    "sourceName": "MyProject",
+    "preferNameDirectory": true
+}
