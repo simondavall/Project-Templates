@@ -59,8 +59,8 @@ internal static class Program
   private static void PrintResult(string partNo, string result, Stopwatch sw)
   {
     sw.Stop();
-    Console.WriteLine($"Part {partNo}");
-    Console.WriteLine($"Result: {result}");
+    Console.WriteLine($"Part {partNo}\\");
+    Console.WriteLine($"Result: {result}\\");
     Console.WriteLine($"Time elapsed (ms): {sw.Elapsed.TotalMilliseconds}");
     Console.WriteLine();
     sw.Restart();
