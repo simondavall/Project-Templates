@@ -28,4 +28,8 @@
       <ProjectReference Include="..\AocHelper\AocHelper.csproj" />
     </ItemGroup>
 
+    <PropertyGroup>
+      <NoWarn>$(NoWarn);IDE0305</NoWarn>
+    </PropertyGroup>
+
 </Project>
