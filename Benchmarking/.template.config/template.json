@@ -1,0 +1,14 @@
+{
+    "author": "Simon Da Vall",
+    "name": "Benchmarking Application",
+    "description": "A console project setup for Benchmarking.",
+    "classifications": ["Common","Console"],
+    "identity": "Benchmark.ConsoleApp.1.0",
+    "shortName": "benchmark",
+    "tags": {
+        "language": "C#",
+        "type": "project"
+    },
+    "sourceName": "ProjectName",
+    "preferNameDirectory": true
+}
