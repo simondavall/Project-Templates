@@ -3,12 +3,7 @@ using System.Diagnostics;
 namespace MyProject;
 
 internal static partial class Program {
-  private const string Title = "\n## Day 0: Replace with days title ##";
-  private const string AdventOfCode = "https://adventofcode.com/2019/day/0";
-  private const long ExpectedPartOne = 0;
-  private const long ExpectedPartTwo = 0;
-
-  public static int Main(string[] args) {
+ public static int Main(string[] args) {
     Console.WriteLine(Title);
     Console.WriteLine(AdventOfCode);
 
@@ -31,13 +26,8 @@ internal static partial class Program {
   }
 
   private static string[] GetData(string filePath) {
-    if (string.IsNullOrWhiteSpace(filePath)) {
-      filePath = "sample.txt";
-    }
-
     using var streamReader = new StreamReader(filePath);
     var data = streamReader.ReadToEnd().Split('\n', StringSplitOptions.RemoveEmptyEntries);
-
     return data;
   }
 
